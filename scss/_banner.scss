@@ -1,0 +1,196 @@
+/* =================================== */
+/*  Banner Styles 
+/* =================================== */
+.banner-section {
+    background-color: $black;
+    background-image: url("../img/img_bg_full_header_home2.svg");
+    background-size: cover;
+    min-height: 950px;
+
+    .overlay-bg {
+        @extend .gradient-bg;
+        opacity: .6;
+    }
+
+    .align-items-center {
+        padding-top: 80px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .banner-left {
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: lighter;
+            padding: 20px 0 40px 0;
+        }
+
+        h1,
+        h2,
+        p {
+            color: $white;
+        }
+
+        h4 {
+            font-weight: 300;
+            margin: 20px 0px;
+        }
+    }
+
+    .banner-right {
+
+        img {
+            -webkit-animation: jump 5s linear 0s infinite normal forwards;
+            animation: jump 5s linear 0s infinite normal forwards;
+        }
+
+        @keyframes jump {
+            0% {
+                transform: translateY(0);
+            }
+
+            20% {
+                transform: translateY(0);
+            }
+
+            41% {
+                transform: translateY(-10px);
+            }
+
+            50% {
+                transform: translateY(-5px);
+            }
+
+            50% {
+                transform: translateY(-5px);
+            }
+
+            80% {
+                transform: translateY(0px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        @-webkit-keyframes jump {
+            0% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+            }
+
+            20% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+            }
+
+            41% {
+                -webkit-transform: translateY(-10px);
+                transform: translateY(-10px);
+            }
+
+            50% {
+                -webkit-transform: translateY(-5px);
+                transform: translateY(-5px);
+            }
+
+            50% {
+                -webkit-transform: translateY(-5px);
+                transform: translateY(-5px);
+            }
+
+            80% {
+                -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+            }
+
+            100% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+    }
+
+    .wave {
+        svg {
+            position: absolute;
+            width: 100%;
+            bottom: -1px;
+            fill: #fff;
+        }
+
+        svg path:nth-child(1) {
+            opacity: 0.15;
+        }
+
+        svg path:nth-child(2) {
+            opacity: 0.3;
+        }
+    }
+}
+
+.banner-section2 {
+    background: url(../img/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .overlay-bg {
+        background: url(../img/banner-overlay1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .banner-left {
+        h1 {
+            text-transform: uppercase;
+            font-size: 22px;
+            font-weight: 400;
+            span{
+                display: block;
+                padding-top:20px;
+                font-weight: 600;
+                font-size: 60px;
+            }
+        }
+        p {
+            margin: 20px 0px;
+            max-width: 450px;
+        }
+    }
+}
+
+.banner-section3 {
+    background: url(../img/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .overlay-bg {
+        background: url(../img/banner-overlay.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .banner-left {
+        h1 {
+            text-transform: uppercase;
+            font-size: 22px;
+            font-weight: 400;
+            span{
+                display: block;
+                padding-top:20px;
+                font-weight: 600;
+                font-size: 60px;
+            }
+        }
+        p {
+            margin: 20px 0px;
+            max-width: 450px;
+        }
+    }    
+}

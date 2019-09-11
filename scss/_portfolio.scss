@@ -1,0 +1,424 @@
+/* =================================== */
+/*  Portfolio Styles 
+/* =================================== */
+
+.portfolio-section {
+    .single-portfolio {
+        margin-bottom: 30px;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        border-radius: 3px;
+        img{
+            @include transition();
+            width: 100%;
+        }
+        .box-content {
+            width: 100%;
+            padding: 40px 0;
+            background: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            bottom: 0px;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.3s ease 0s;
+        }
+        &:hover {
+            .box-content {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            img {
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+        }
+        .box-content .title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+            margin: 0 0 5px 0;
+        }
+        .box-content .post {
+            display: inline-block;
+            font-size: 15px;
+            color: #fff;
+            text-transform: capitalize;
+        }
+    }
+    .primary-btn {
+        margin-top: 20px;
+    }
+}
+
+.product-detials-section{
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+        position: absolute;
+        top: 10px;
+        width: 100%;
+  
+        ul {
+          display: inline-flex;
+          font-size: 11px;
+          text-transform: uppercase;
+        }
+  
+        li {
+            line-height: 30px;
+
+            i {
+                padding: 0 5px;
+            }
+
+          a {
+            text-decoration: none!important;
+          }
+        }
+      }
+
+    .details-left {
+        padding-right: 25px;
+    }
+      
+    .details-right{
+        padding-left: 25px;
+
+        img {
+            margin-top: 24px;
+        }
+    }
+
+    .img-service-pardot {
+        min-height: 240px;
+        margin-bottom: 30px;
+    }
+}
+
+.new-pardot-section,
+.support-pardot-section,
+.the-discovery-section,
+.final-desti-section {
+    background: url(../img/img_effect_section_service_1.svg) center top no-repeat;
+    background-size: cover;
+    padding: 150px 0 0 0;
+
+    .details-left {
+
+        .section-title {
+            padding: 0;
+            margin-bottom: 25px;
+        }
+    }
+
+
+    .form-section-service {
+        background: #E8F5FB;
+
+        .f-service {
+            max-width: 920px;
+            margin: 0 auto;
+        }
+
+        .g-recaptcha {
+            display: inline-block;
+        }
+
+        .dropdown-toggle::after {
+            right: 20px;
+            position: absolute;
+            top: 25px;
+        }
+
+        .cta-btn {
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
+
+.the-discovery-section {
+    padding: 150px 0 0 0;
+}
+
+.final-desti-section {
+    padding: 150px 0 0 0;
+
+    ul {
+        list-style: disc;
+        padding: 0 0 0 30px;
+        margin: 0 0 15px 0;
+    }
+
+    .img-final-section {
+        margin-bottom: 50px;
+    }
+
+    .details-right {
+
+        img {
+            margin-top: 150px;
+        }
+    }
+}
+
+.solution-path-section {
+    padding: 80px 0 80px 0!important;
+
+    .section-title {
+        padding: 0;
+        margin-bottom: 25px;
+    }
+}
+
+.img-final-section {
+    padding-top: 50px;
+}
+
+.features-new-pardot,
+.features-our-approach,
+.box-default {
+    background-color: $white;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 6px 30px 0px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 0 6px 30px 0px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 6px 30px 0px rgba(0, 0, 0, 0.20);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    padding: 30px;
+
+    &:hover {
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+        transform: translateY(-10px);
+        -webkit-box-shadow: 0 0px 50px 0px rgba(0, 0, 0, 0.50);
+        -moz-box-shadow: 0 0px 50px 0px rgba(0, 0, 0, 0.50);
+        box-shadow: 0 0px 50px 0px rgba(0, 0, 0, 0.50);
+    }
+
+    i {
+        font-size: 70px;
+        background: linear-gradient(0deg, $black 0%, $secondary-color 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+}
+
+.box-default {
+    padding: 0;
+
+    .content-box {
+        padding: 30px;
+
+        ul {
+            list-style: circle;
+            padding: 0 0 0 30px;
+        }
+    }
+}
+
+.box-img-graphic-1 {
+    background: url(../img/img-our-approach_graphi-1.svg) center top no-repeat;
+    background-size: cover;
+    margin: 150px 0;
+    height: 384px;
+
+    .line-1-graphic-1 {
+        position: absolute;
+        top: -101px;
+    }
+
+    .line-2-graphic-1 {
+        position: absolute;
+        bottom: -114px;
+    }
+
+    h4 {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+.features-our-approach {
+    padding: 20px;
+    height: 240px;
+
+    h4 {
+        color: $white;
+        font-size: 23px;
+    }
+}
+
+.steps {
+    position: absolute;
+    bottom: 14px;
+    z-index: -1;
+}
+
+.o-a-img-1 {
+    background: url(../img/img_approach_1.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    h4 {
+        margin-top: 70px;
+    }
+}
+
+.o-a-img-2 {
+    background: url(../img/img_approach_2.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    h4 {
+        margin-top: 70px;
+    }
+}
+
+.o-a-img-3 {
+    background: url(../img/img_approach_3.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    h4 {
+        margin-top: 70px;
+    }
+}
+
+.support-pardot-section,
+.solution-path-section {
+    background: $white;
+    padding: 100px 0 0 0;
+
+    .details-left {
+        .img-desk {
+            display: block;
+        }
+
+        .img-mobile {
+            display: none;
+        }
+    }
+
+    .details-right {
+
+        img {
+            margin-top: 90px;
+        }
+    }
+}
+
+.new-pardot-section,
+.support-pardot-section {
+
+    .modal {
+
+        .modal-content {
+            border-radius: 2px;
+            border: none;
+            -webkit-box-shadow: 0 6px 30px 0px rgba(0, 0, 0, 0.20);
+            -moz-box-shadow: 0 6px 30px 0px rgba(0, 0, 0, 0.20);
+            box-shadow: 0 6px 30px 0px rgba(0, 0, 0, 0.20);
+
+            .modal-header {
+
+                .modal-title {
+                    font-weight: bold;
+        
+                    i {
+                        background: linear-gradient(0deg, $black 0%, $secondary-color 100%);
+                        -webkit-background-clip: text;
+                        background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+            }
+
+            .modal-body {
+
+                h4 {
+                    margin-bottom: 15px;
+                }
+
+                ul {
+
+                    li {
+                        list-style: disc;
+                        margin: 0 0 10px 30px;
+                    }
+                }
+
+                .cta-download {
+                    background: #f3fafd;
+                    padding: 30px;
+                    text-align: center;
+
+                    .secondary-btn {
+                        cursor: pointer;
+                    }
+
+                    .f-cta {
+                        text-align: left;
+                        margin-top: 20px;
+                    }
+                }
+            }
+
+            .modal-footer {
+
+                .right-nav-modals {
+                    position: absolute;
+                    font-size: 40px;
+                    opacity: 0.3;
+                    color: $black;
+                    left: 54%;
+                    transform: translateX(-50%);
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+
+                .left-nav-modals {
+                    position: absolute;
+                    font-size: 40px;
+                    opacity: 0.3;
+                    color: $black;
+                    left: 46%;
+                    transform: translateX(-50%);
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.knowledge-pardot-section {
+
+    .area-btn {
+        margin-top: 30px;
+    }
+}

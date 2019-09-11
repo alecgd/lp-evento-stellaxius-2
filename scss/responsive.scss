@@ -205,6 +205,10 @@
 
         .copyright-text {
             text-align: center !important;
+
+            .logo-footer {
+                padding-bottom: 10px;
+            }
         }
 
         .container {
@@ -223,6 +227,7 @@
         }
 
         #social {
+            padding-top: 10px;
 
             li {
                 &:first-child {

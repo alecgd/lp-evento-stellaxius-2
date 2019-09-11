@@ -139,6 +139,7 @@
     background-position: bottom center;
     padding: 60px 0 140px 0;
     text-align: center;
+    overflow: hidden;
 
     .container {
 
@@ -193,9 +194,9 @@
       }
       .img-header-event {
         position: absolute;
-        bottom: 40px;
+        bottom: -100px;
         z-index: 1;
-        left: 255px;
+        left: -128px;
       }
     }
 

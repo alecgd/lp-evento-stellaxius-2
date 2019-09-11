@@ -1,14 +1,14 @@
 {
-  "name": "stellaxius_v2",
-  "version": "2.0.0",
-  "description": "New Stellaxius Website v2019",
+  "name": "lp-evento-stellaxius-2",
+  "version": "1.0.0",
+  "description": "Landing Page do evento Stellaxius: Discover and Master Salesforce 2019",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alecgd/stellaxiusv2.git"
+    "url": "git+https://github.com/alecgd/lp-evento-stellaxius-2.git"
   },
   "keywords": [
     "stellaxius"
@@ -16,9 +16,9 @@
   "author": "Alexandre Duarte",
   "license": "SEE LICENSE IN FILE LICENSE.TXT",
   "bugs": {
-    "url": "https://github.com/alecgd/stellaxiusv2/issues"
+    "url": "https://github.com/alecgd/lp-evento-stellaxius-2/issues"
   },
-  "homepage": "https://github.com/alecgd/stellaxiusv2#readme",
+  "homepage": "https://github.com/alecgd/lp-evento-stellaxius-2/blob/master/README.md",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "browser-sync": "^2.26.7",

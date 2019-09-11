@@ -664,8 +664,14 @@
     }
     .page-top-banner{
         padding: 40px 0 60px;
+        
+
+        .wave {
+            z-index: 0;
+        }
 
         .container {
+            z-index: 1;
 
             .assina-evento {
                 font-size: 14px;
@@ -704,6 +710,13 @@
             }
         }
         
+    }
+
+    .agenda-section {
+        .img-agenda-1,
+        .img-agenda-2 {
+            display: none;
+        }
     }
 
     .product-detials-section {

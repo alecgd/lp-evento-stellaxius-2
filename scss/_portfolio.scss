@@ -225,6 +225,11 @@
     color: $black;
 }
 
+iframe{
+    width: 1px;
+    min-width: 100%;
+}
+
 .agenda-section {
     background: url(../img/img_bg_agenda_evento_1.svg) no-repeat;
     background-size: auto;

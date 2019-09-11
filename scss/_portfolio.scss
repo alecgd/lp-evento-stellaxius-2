@@ -178,8 +178,6 @@
     padding-top: 50px;
 }
 
-.features-new-pardot,
-.features-our-approach,
 .box-default {
     background-color: $white;
     border-radius: 2px;
@@ -211,25 +209,13 @@
         -webkit-text-fill-color: transparent;
     }
 
-    h4 {
-        font-size: 20px;
+    h2 {
+        font-size: 25px;
         font-weight: bold;
-        margin: 20px 0;
+        text-align: center;
     }
 }
 
-.box-default {
-    padding: 0;
-
-    .content-box {
-        padding: 30px;
-
-        ul {
-            list-style: circle;
-            padding: 0 0 0 30px;
-        }
-    }
-}
 
 .box-img-graphic-1 {
     background: url(../img/img-our-approach_graphi-1.svg) center top no-repeat;

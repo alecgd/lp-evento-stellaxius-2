@@ -825,22 +825,13 @@
         }
     }
 
-    .box-default {
-        margin-bottom: 20px;
+    .content-register-section {
+        text-align: center;
+        padding: 60px 0 0 0;
 
-        .content-box {
+        .box-default {
             padding: 20px;
-        }
-    }
-
-    .final-desti-section {
-        padding: 80px 0 0 0;
-    
-        .details-right {
-    
-            img {
-                margin-top: 40px;
-            }
+            margin-top: 20px;
         }
     }
 }

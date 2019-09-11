@@ -658,24 +658,44 @@
         }
     }
     .page-top-banner{
+        padding: 40px 0 60px;
 
         .container {
 
-            .align-items-center {
-                padding-top: 80px;
+            .assina-evento {
+                font-size: 14px;
+            }
 
-                .banner-left {
-                    text-align: center!important;
-                    margin-bottom: 40px;
+            h1 {
+                font-size: 30px
+            }
 
-                    h1 {
-                        font-size: 36px
-                    }
+            h2 {
+                font-size: 14px;
+                padding: 10px 0 20px 0;
+            }
+
+            .infos-event-bar {
+                padding: 0px 10px 10px 10px;
+                margin-bottom: 30px;
+
+                .row {
+                    margin-right: -5px;
+                    margin-left: -5px;   
                 }
 
-                .banner-right {
-                    padding-top: 40px;
+                .divider {
+                    border-right: 0;
+                    border-bottom: 1px solid #EAEBEC;
+                    padding: 10px 0;
                 }
+                .col-lg-5 {
+                    padding-top: 10px;
+                }
+            }
+
+            .img-header-event {
+                display: none;
             }
         }
         

@@ -39,14 +39,6 @@
 
   });
 
-  // ------------------------------------------------------------------------------ //
-  // Active Menu 
-  // ------------------------------------------------------------------------------ //
-
-  $('#dopeNav').dopeNav({
-    stickyNav: true,
-  });
-
   //Smooth Scrolling Using Navigation Menu
   $('a[href*="#"]').on('click', function (e) {
     $('html,body').animate({
@@ -143,41 +135,6 @@
 
 
   // ------------------------------------------------------------------------------ //
-  // Certifications carousel  
-  // ------------------------------------------------------------------------------ //
-
-  $("#certifications-carusel").owlCarousel({
-    items: 7,
-    loop: true,
-    dots: false,
-    nav: true,
-    autoplayHoverPause: true,
-    smartSpeed: 500,
-    autoplay: true,
-    margin: 40,
-    responsiveClass:true,
-    responsive: {
-      0: {
-        items: 2,
-        nav: false
-      },
-      480: {
-        items: 2,
-        nav: true
-      },
-      768: {
-        items: 4,
-        nav: true
-      },
-      1000: {
-        items: 7,
-        nav: true
-      }
-    }
-  });
-
-
-  // ------------------------------------------------------------------------------ //
   // Stat Counter  
   // ------------------------------------------------------------------------------ //
 
@@ -254,12 +211,6 @@
   $(function(){
     $('.selectpicker').selectpicker();
   });
-
-  // ------------------------------------------------------------------------------ //
-  // Enable/Disable Button Recaptcha 
-  // ------------------------------------------------------------------------------ //
-
-  document.getElementById("btn-subscribe-news").disabled = true;
 
 
   // ------------------------------------------------------------------------------ //

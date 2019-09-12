@@ -705,7 +705,8 @@
                 }
             }
 
-            .img-header-event {
+            .img-header-event,
+            .img-header-event-2 {
                 display: none;
             }
         }
@@ -737,7 +738,7 @@
 
                 td {
                     padding: .60rem;
-                    
+
                     .hour-event {
                         font-size: 14px;
                         text-align: center;
@@ -893,7 +894,8 @@
         }
     }
 
-    .clinic-section {
+    .clinic-section,
+    .content-register-section {
 
         .container {
         
@@ -921,6 +923,27 @@
                 margin-top: 20px;
             }
 
+            .box-chat {
+
+                .secondary-btn {
+                    padding: 7px 10px;
+                }
+            }
+        }
+    }
+
+    .como-chegar-section-typ {
+        padding: 80px 0 170px 0;
+
+        .container {
+
+            h2 {
+                font-size: 30px;
+                margin-bottom: 45px;
+            }
+            .box-info-local {
+                margin-top: 20px;
+            }
             .box-chat {
 
                 .secondary-btn {

@@ -235,7 +235,8 @@
     }
 }
 
-.como-chegar-section {
+.como-chegar-section,
+.como-chegar-section-typ {
     background: url(../img/img_effect_local.svg) 100% 0 no-repeat;
     background-size: cover;
     padding-top: 150px;
@@ -292,6 +293,11 @@
             }
         }
     }
+}
+
+.como-chegar-section-typ {
+    background: none;
+    padding: 70px 0 100px 0;
 }
 
 iframe{

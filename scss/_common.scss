@@ -198,6 +198,29 @@
         z-index: 1;
         left: -128px;
       }
+
+      .img-header-event-2 {
+        position: absolute;
+        bottom: -140px;
+        z-index: 1;
+        right: -58px;
+      }
+
+      .addeventatc {
+        background: $primary-color!important;
+        color: $white!important;
+        font-weight: bold;
+        font-family: Poppins,sans-serif;
+        border-radius: 0;
+        font-size: 14px;
+        
+        .addeventatc_icon {
+          background: url(../img/calendar-check-regular.svg);
+          width: 20px;
+          height: 23px;
+          top: 8px;
+        }
+      }
     }
 
     .wave {
@@ -216,6 +239,18 @@
     h2 {
       font-size: 25px;
       padding-bottom: 30px;
+    }
+
+    .section-title {
+      padding: 0;
+
+      h2 {
+          font-size: 38px;
+      }
+
+      p {
+          font-size: 18px;
+      }
     }
 
     .content-event-1 {

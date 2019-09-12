@@ -218,11 +218,80 @@
 
 
 .clinic-section {
-    color: $black;
+
+    .container {
+
+        .section-title {
+            padding: 0;
+
+            h2 {
+                font-size: 38px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
 }
 
 .como-chegar-section {
-    color: $black;
+    background: url(../img/img_effect_local.svg) 100% 0 no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+
+    .container {
+
+        h2 {
+            font-size: 38px;
+            margin-bottom: 75px;
+            text-align: center;
+        }
+
+        .box-default {
+            padding: 0;
+            max-height: 392px;
+        }
+
+        .box-chat {
+            margin-top: 20px;
+
+            .secondary-btn {
+                width: 100%;
+
+                i {
+                    font-size: 18px!important;
+                    -webkit-text-fill-color: $primary-color;
+                    padding-right: 10px;
+                    background: transparent;
+                }
+            }
+        }
+
+        .box-info-local {
+
+            .box-default {
+                padding: 30px;
+
+                i {
+                    font-size: 40px;
+                }
+
+                .gps-info {
+                    padding-right: 5px;
+
+                    h5, p {
+                        font-size: 12px;
+                    }
+
+                    p {
+                        margin: 0;
+                    }
+                }
+                
+            }
+        }
+    }
 }
 
 iframe{
@@ -250,7 +319,7 @@ iframe{
 
     h2 {
         font-size: 38px;
-        padding-bottom: 30px;
+        margin-bottom: 75px;
         text-align: center;
         background: transparent;
     }

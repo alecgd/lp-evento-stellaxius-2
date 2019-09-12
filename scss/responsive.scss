@@ -663,7 +663,7 @@
         }
     }
     .page-top-banner{
-        padding: 40px 0 60px;
+        padding: 40px 0 100px;
         
 
         .wave {
@@ -716,6 +716,39 @@
         .img-agenda-1,
         .img-agenda-2 {
             display: none;
+        }
+        
+        h2 {
+            font-size: 30px;
+            margin-bottom: 45px;
+        }
+
+        .box-default {
+
+            .title-table {
+                font-size: 16px;
+
+                i {
+                    font-size: 22px;
+                }
+            }
+
+            .table-responsive-sm {
+
+                td {
+                    padding: .60rem;
+                    
+                    .hour-event {
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                }
+
+                .title-event,
+                .more-indo-event {
+                    font-size: 14px;
+                }
+            }
         }
     }
 
@@ -847,9 +880,53 @@
         text-align: center;
         padding: 60px 0 0 0;
 
+        .container {
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+
         .box-default {
             padding: 20px;
             margin-top: 20px;
+        }
+    }
+
+    .clinic-section {
+
+        .container {
+        
+            .section-title {
+
+                h2 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    .como-chegar-section {
+        background-position: center;
+        padding: 80px 0 170px 0;
+
+        .container {
+
+            h2 {
+                font-size: 30px;
+                margin-bottom: 45px;
+            }
+
+            .box-info-local {
+                margin-top: 20px;
+            }
+
+            .box-chat {
+
+                .secondary-btn {
+                    padding: 7px 10px;
+                }
+            }
         }
     }
 }

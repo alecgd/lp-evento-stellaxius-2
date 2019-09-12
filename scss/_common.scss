@@ -132,7 +132,8 @@
   }
 }
 
-.page-top-banner{
+.page-top-banner,
+.page-top-banner-typ{
     background: url(../img/img_bg_header_service_1.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -141,6 +142,18 @@
     text-align: center;
     overflow: hidden;
 
+    .typ-header {
+        
+      h2 {
+        padding: 20px 0 0px!important;
+      }
+
+      h1 {
+        padding: 0 0 30px 0;
+        font-size: 30px!important;
+      }
+    }
+    
     .container {
 
       .assina-evento {
@@ -167,7 +180,6 @@
         font-weight: lighter;
         color: $white;
         padding: 20px 0 50px 0;
-        max-width: 1060px;
       }
 
       .infos-event-bar {
@@ -207,12 +219,13 @@
       }
 
       .addeventatc {
-        background: $primary-color!important;
-        color: $white!important;
-        font-weight: bold;
-        font-family: Poppins,sans-serif;
-        border-radius: 0;
-        font-size: 14px;
+        background: transparent!important;
+      color: $white!important;
+      font-weight: 700;
+      font-family: Poppins,sans-serif;
+      border-radius: 0;
+      font-size: 14px;
+      border: 2px solid $white;
         
         .addeventatc_icon {
           background: url(../img/calendar-check-regular.svg);
@@ -228,6 +241,11 @@
       bottom: -1px;
       left: 0;
     }
+}
+
+.page-top-banner-typ {
+  padding: 60px 0 50px;
+  overflow: initial;
 }
 
 .content-register-section {

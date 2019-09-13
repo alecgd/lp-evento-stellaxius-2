@@ -248,7 +248,8 @@
   overflow: initial;
 }
 
-.content-register-section {
+.content-register-section,
+.content-register2-section {
   background: #F3FAFD;
   padding: 100px 0 0 0;
 
@@ -271,7 +272,9 @@
       }
     }
 
-    .content-event-1 {
+    .content-event-1,
+    .content-event-2,
+    .content-event-3 {
       padding-top: 30px;
   
       .col-sm-1 {
@@ -292,6 +295,18 @@
         }
       }
     }
+    .content-event-2 {
+      padding-top: 0;
+    }
+
+    .content-event-3 {
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+
+    .img-clinic-typ {
+      max-height: 280px;
+    }
   }
   .share-bar {
     background: #E8F5FB;
@@ -302,6 +317,24 @@
     p {
       text-transform: uppercase;
       font-weight: bold;
+    }
+  }
+}
+.content-register2-section {
+  padding: 50px 0 0 0;
+
+  .section-title {
+    padding: 0;
+    margin-bottom: 50px;
+
+    h2 {
+        font-size: 38px;
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 0;
     }
   }
 }

@@ -232,6 +232,23 @@
                 font-size: 18px;
             }
         }
+
+        .tips-clinic {
+            margin-bottom: 50px;
+
+            .box-default {
+                min-height: 273px;
+
+                i {
+                    font-size: 55px;
+                    margin-bottom: 10px;
+                }
+
+                h3 {
+                    margin-bottom: 10px;
+                }
+            }
+        }
     }
 }
 

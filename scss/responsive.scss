@@ -202,6 +202,7 @@
     }
 
     .footer-section {
+        padding: 63px 0;
 
         .copyright-text {
             text-align: center !important;
@@ -895,7 +896,8 @@
     }
 
     .clinic-section,
-    .content-register-section {
+    .content-register-section,
+    .content-register2-section {
 
         .container {
         
@@ -905,6 +907,22 @@
                     font-size: 30px;
                 }
             }
+        }
+    }
+
+    .content-register2-section {
+        .box-default {
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .content-event-2 {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .content-event-3 {
+            text-align: center;
         }
     }
 

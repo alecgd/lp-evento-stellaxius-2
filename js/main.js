@@ -27,7 +27,6 @@
   });
   
 
-
   // ------------------------------------------------------------------------------ //
   // Preloader 
   // ------------------------------------------------------------------------------ //
@@ -49,176 +48,12 @@
 
 
   // ------------------------------------------------------------------------------ //
-  // Team carousel  
-  // ------------------------------------------------------------------------------ //
-
-  $("#team-carusel").owlCarousel({
-    items: 4,
-    loop: true,
-    margin: 30,
-    dots: true,
-    autoplayHoverPause: true,
-    smartSpeed: 500,
-    autoplay: false,
-    responsive: {
-      0: {
-        items: 1
-      },
-      767: {
-        items: 2
-      },
-      992: {
-        items: 4
-      }
-    }
-  });
-
-
-  // ------------------------------------------------------------------------------ //
-  // Service carousel  
-  // ------------------------------------------------------------------------------ //
-
-  $("#service-carusel").owlCarousel({
-    items: 4,
-    loop: true,
-    margin: 15,
-    dots: true,
-    autoplayHoverPause: true,
-    smartSpeed: 500,
-    autoplay: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      767: {
-        items: 2
-      },
-      992: {
-        items: 4
-      }
-    }
-  });
-
-
-  // ------------------------------------------------------------------------------ //
-  // Testimonial carousel  
-  // ------------------------------------------------------------------------------ //
-
-  $("#testimonial-carusel").owlCarousel({
-    items: 1,
-    loop: true,
-    margin: 30,
-    dots: true,
-    autoplayHoverPause: true,
-    smartSpeed: 800,
-    autoplay: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 1
-      }
-    }
-  });
-
-  
-  $("#testimonial-carusel2").owlCarousel({
-    items: 1,
-    loop: true,
-    margin: 30,
-    dots: true,
-    autoplayHoverPause: true,
-    smartSpeed: 500,
-    autoplay: true,
-  });
-
-
-  // ------------------------------------------------------------------------------ //
   // Stat Counter  
   // ------------------------------------------------------------------------------ //
 
   $('.counter').counterUp({
     delay: 10,
     time: 1000
-  });
-
-
-  // ------------------------------------------------------------------------------ //
-  // Skill Section  
-  // ------------------------------------------------------------------------------ //
-
-  $(document).ready(function () {
-
-    $(".skills").addClass("active");
-    $(".skills .skill .skill-bar span").each(function () {
-      $(this).animate({
-        "width": $(this).parent().attr("data-bar") + "%"
-      }, 1000);
-      $(this).append('<b>' + $(this).parent().attr("data-bar") + '%</b>');
-    });
-    setTimeout(function () {
-      $(".skills .skill .skill-bar span b").animate({
-        "opacity": "1"
-      }, 1000);
-    }, 2000);
-  });
-
-  // ------------------------------------------------------------------------------ //
-  // Accordian   
-  // ------------------------------------------------------------------------------ //
-
-  var allPanels = $(".accordion > dd").hide();
-  allPanels.first().slideDown("easeOutExpo");
-  $(".accordion").each(function () {
-    $(this).find("dt > a").first().addClass("active").parent().next().css({
-      display: "block"
-    });
-  });
-
-  $(document).on('click', '.accordion > dt > a', function (e) {
-    var current = $(this).parent().next("dd");
-    $(this).parents(".accordion").find("dt > a").removeClass("active");
-    $(this).addClass("active");
-    $(this).parents(".accordion").find("dd").slideUp("easeInExpo");
-    $(this).parent().next().slideDown("easeOutExpo");
-    return false;
-
-  });
-
-
-  // ------------------------------------------------------------------------------ //
-  // Skillbar
-  // ------------------------------------------------------------------------------ //
-
-	$(".skill_main").each(function() {
-    $(this).waypoint(function() {
-        var progressBar = $(".progress-bar");
-        progressBar.each(function(indx){
-            $(this).css("width", $(this).attr("aria-valuenow") + "%")
-        })
-    }, {
-        triggerOnce: true,
-        offset: 'bottom-in-view'
-
-    });
-});
-
-  // ------------------------------------------------------------------------------ //
-  // Select Piker Language 
-  // ------------------------------------------------------------------------------ //
-
-  $(function(){
-    $('.selectpicker').selectpicker();
-  });
-
-
-  // ------------------------------------------------------------------------------ //
-  // Display select item dropdown
-  // ------------------------------------------------------------------------------ //
-
-  $('.dropdown-menu a').on('click', function(){    
-    $('.drop-primary').html($(this).html());    
   });
 
   // ------------------------------------------------------------------------------ //
